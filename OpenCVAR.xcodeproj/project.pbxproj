@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0320AB0D16768685002B609D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0320AB0C16768685002B609D /* UIKit.framework */; };
+		0320AB0F16768685002B609D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0320AB0E16768685002B609D /* Foundation.framework */; };
+		0320AB1116768685002B609D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0320AB1016768685002B609D /* CoreGraphics.framework */; };
+		0320AB1316768685002B609D /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0320AB1216768685002B609D /* GLKit.framework */; };
+		0320AB1516768685002B609D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0320AB1416768685002B609D /* OpenGLES.framework */; };
+		0320AB1B16768685002B609D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0320AB1916768685002B609D /* InfoPlist.strings */; };
+		0320AB1D16768685002B609D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0320AB1C16768685002B609D /* main.m */; };
+		0320AB2116768685002B609D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0320AB2016768685002B609D /* AppDelegate.m */; };
+		0320AB2316768685002B609D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0320AB2216768685002B609D /* Default.png */; };
+		0320AB2516768685002B609D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0320AB2416768685002B609D /* Default@2x.png */; };
+		0320AB2716768685002B609D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0320AB2616768685002B609D /* Default-568h@2x.png */; };
+		0320AB2916768685002B609D /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 0320AB2816768685002B609D /* Shader.fsh */; };
+		0320AB2B16768685002B609D /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 0320AB2A16768685002B609D /* Shader.vsh */; };
+		0320AB2E16768685002B609D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0320AB2D16768685002B609D /* ViewController.m */; };
+		0320AB3116768685002B609D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0320AB2F16768685002B609D /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0320AB0816768685002B609D /* OpenCVAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCVAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0320AB0C16768685002B609D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0320AB0E16768685002B609D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0320AB1016768685002B609D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0320AB1216768685002B609D /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		0320AB1416768685002B609D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		0320AB1816768685002B609D /* OpenCVAR-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenCVAR-Info.plist"; sourceTree = "<group>"; };
+		0320AB1A16768685002B609D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0320AB1C16768685002B609D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0320AB1E16768685002B609D /* OpenCVAR-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenCVAR-Prefix.pch"; sourceTree = "<group>"; };
+		0320AB1F16768685002B609D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0320AB2016768685002B609D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0320AB2216768685002B609D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0320AB2416768685002B609D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0320AB2616768685002B609D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0320AB2816768685002B609D /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		0320AB2A16768685002B609D /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		0320AB2C16768685002B609D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0320AB2D16768685002B609D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0320AB3016768685002B609D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0320AB0516768684002B609D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0320AB0D16768685002B609D /* UIKit.framework in Frameworks */,
+				0320AB0F16768685002B609D /* Foundation.framework in Frameworks */,
+				0320AB1116768685002B609D /* CoreGraphics.framework in Frameworks */,
+				0320AB1316768685002B609D /* GLKit.framework in Frameworks */,
+				0320AB1516768685002B609D /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0320AAFD16768684002B609D = {
+			isa = PBXGroup;
+			children = (
+				0320AB1616768685002B609D /* OpenCVAR */,
+				0320AB0B16768685002B609D /* Frameworks */,
+				0320AB0916768685002B609D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0320AB0916768685002B609D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0320AB0816768685002B609D /* OpenCVAR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0320AB0B16768685002B609D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0320AB0C16768685002B609D /* UIKit.framework */,
+				0320AB0E16768685002B609D /* Foundation.framework */,
+				0320AB1016768685002B609D /* CoreGraphics.framework */,
+				0320AB1216768685002B609D /* GLKit.framework */,
+				0320AB1416768685002B609D /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0320AB1616768685002B609D /* OpenCVAR */ = {
+			isa = PBXGroup;
+			children = (
+				0320AB1F16768685002B609D /* AppDelegate.h */,
+				0320AB2016768685002B609D /* AppDelegate.m */,
+				0320AB2816768685002B609D /* Shader.fsh */,
+				0320AB2A16768685002B609D /* Shader.vsh */,
+				0320AB2C16768685002B609D /* ViewController.h */,
+				0320AB2D16768685002B609D /* ViewController.m */,
+				0320AB2F16768685002B609D /* ViewController.xib */,
+				0320AB1716768685002B609D /* Supporting Files */,
+			);
+			path = OpenCVAR;
+			sourceTree = "<group>";
+		};
+		0320AB1716768685002B609D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0320AB1816768685002B609D /* OpenCVAR-Info.plist */,
+				0320AB1916768685002B609D /* InfoPlist.strings */,
+				0320AB1C16768685002B609D /* main.m */,
+				0320AB1E16768685002B609D /* OpenCVAR-Prefix.pch */,
+				0320AB2216768685002B609D /* Default.png */,
+				0320AB2416768685002B609D /* Default@2x.png */,
+				0320AB2616768685002B609D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0320AB0716768684002B609D /* OpenCVAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0320AB3416768685002B609D /* Build configuration list for PBXNativeTarget "OpenCVAR" */;
+			buildPhases = (
+				0320AB0416768684002B609D /* Sources */,
+				0320AB0516768684002B609D /* Frameworks */,
+				0320AB0616768684002B609D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenCVAR;
+			productName = OpenCVAR;
+			productReference = 0320AB0816768685002B609D /* OpenCVAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0320AAFF16768684002B609D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "We Make Play";
+			};
+			buildConfigurationList = 0320AB0216768684002B609D /* Build configuration list for PBXProject "OpenCVAR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0320AAFD16768684002B609D;
+			productRefGroup = 0320AB0916768685002B609D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0320AB0716768684002B609D /* OpenCVAR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0320AB0616768684002B609D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0320AB1B16768685002B609D /* InfoPlist.strings in Resources */,
+				0320AB2316768685002B609D /* Default.png in Resources */,
+				0320AB2516768685002B609D /* Default@2x.png in Resources */,
+				0320AB2716768685002B609D /* Default-568h@2x.png in Resources */,
+				0320AB2916768685002B609D /* Shader.fsh in Resources */,
+				0320AB2B16768685002B609D /* Shader.vsh in Resources */,
+				0320AB3116768685002B609D /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0320AB0416768684002B609D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0320AB1D16768685002B609D /* main.m in Sources */,
+				0320AB2116768685002B609D /* AppDelegate.m in Sources */,
+				0320AB2E16768685002B609D /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0320AB1916768685002B609D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0320AB1A16768685002B609D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0320AB2F16768685002B609D /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0320AB3016768685002B609D /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0320AB3216768685002B609D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0320AB3316768685002B609D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0320AB3516768685002B609D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenCVAR/OpenCVAR-Prefix.pch";
+				INFOPLIST_FILE = "OpenCVAR/OpenCVAR-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0320AB3616768685002B609D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenCVAR/OpenCVAR-Prefix.pch";
+				INFOPLIST_FILE = "OpenCVAR/OpenCVAR-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0320AB0216768684002B609D /* Build configuration list for PBXProject "OpenCVAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0320AB3216768685002B609D /* Debug */,
+				0320AB3316768685002B609D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0320AB3416768685002B609D /* Build configuration list for PBXNativeTarget "OpenCVAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0320AB3516768685002B609D /* Debug */,
+				0320AB3616768685002B609D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0320AAFF16768684002B609D /* Project object */;
+}
