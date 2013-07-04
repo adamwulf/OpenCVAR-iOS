@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0300C25B16B1DE9D002D5C39 /* CalibrationVC.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0300C25916B1DE9D002D5C39 /* CalibrationVC.mm */; };
+		0300C25C16B1DE9D002D5C39 /* CalibrationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0300C25A16B1DE9D002D5C39 /* CalibrationVC.xib */; };
+		0300C26316B1ED2E002D5C39 /* ARCalibrator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0300C26116B1ED2E002D5C39 /* ARCalibrator.cpp */; };
+		0300C26616B1ED54002D5C39 /* ARCalibratorWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0300C26516B1ED54002D5C39 /* ARCalibratorWrapper.mm */; };
 		0320AB0D16768685002B609D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0320AB0C16768685002B609D /* UIKit.framework */; };
 		0320AB0F16768685002B609D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0320AB0E16768685002B609D /* Foundation.framework */; };
 		0320AB1116768685002B609D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0320AB1016768685002B609D /* CoreGraphics.framework */; };
@@ -18,13 +22,76 @@
 		0320AB2316768685002B609D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0320AB2216768685002B609D /* Default.png */; };
 		0320AB2516768685002B609D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0320AB2416768685002B609D /* Default@2x.png */; };
 		0320AB2716768685002B609D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0320AB2616768685002B609D /* Default-568h@2x.png */; };
-		0320AB2916768685002B609D /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 0320AB2816768685002B609D /* Shader.fsh */; };
-		0320AB2B16768685002B609D /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 0320AB2A16768685002B609D /* Shader.vsh */; };
-		0320AB2E16768685002B609D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0320AB2D16768685002B609D /* ViewController.m */; };
-		0320AB3116768685002B609D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0320AB2F16768685002B609D /* ViewController.xib */; };
+		0320AB2E16768685002B609D /* TrackerVC.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0320AB2D16768685002B609D /* TrackerVC.mm */; };
+		0320AB3116768685002B609D /* TrackerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0320AB2F16768685002B609D /* TrackerVC.xib */; };
+		0320AB381676869F002B609D /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0320AB371676869F002B609D /* opencv2.framework */; };
+		0320AB4816768A4C002B609D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0320AB4716768A4C002B609D /* CoreMedia.framework */; };
+		0320AB4E16769461002B609D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0320AB4D16769461002B609D /* AVFoundation.framework */; };
+		0320AB5016769490002B609D /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0320AB4F16769490002B609D /* CoreVideo.framework */; };
+		03391BE916A9F45500D60E69 /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = 03391BE716A9F45500D60E69 /* left.png */; };
+		03391BEA16A9F45500D60E69 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 03391BE816A9F45500D60E69 /* right.png */; };
+		03391BEF16A9F64C00D60E69 /* green_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 03391BEB16A9F64C00D60E69 /* green_dot.png */; };
+		03391BF016A9F64C00D60E69 /* grey_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 03391BEC16A9F64C00D60E69 /* grey_dot.png */; };
+		03391BF116A9F64C00D60E69 /* info_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 03391BED16A9F64C00D60E69 /* info_bg.png */; };
+		03391BF216A9F64C00D60E69 /* red_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 03391BEE16A9F64C00D60E69 /* red_dot.png */; };
+		03415C7716BC76CA00741EAA /* ARPongSceneVC.mm in Sources */ = {isa = PBXBuildFile; fileRef = 03415C7516BC76CA00741EAA /* ARPongSceneVC.mm */; };
+		03415C7816BC76CA00741EAA /* ARPongSceneVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03415C7616BC76CA00741EAA /* ARPongSceneVC.xib */; };
+		03415C8016BC7CA600741EAA /* ARPongPaddleGameObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 03415C7F16BC7CA600741EAA /* ARPongPaddleGameObject.m */; };
+		03415C8316BC7DBB00741EAA /* ARPongCourtGameObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 03415C8216BC7DBB00741EAA /* ARPongCourtGameObject.m */; };
+		0347E16F16B340AA0003FB00 /* calibrate_disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 0347E16A16B340AA0003FB00 /* calibrate_disabled.png */; };
+		0347E17016B340AA0003FB00 /* calibrate.png in Resources */ = {isa = PBXBuildFile; fileRef = 0347E16B16B340AA0003FB00 /* calibrate.png */; };
+		0347E17116B340AA0003FB00 /* camera_disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 0347E16C16B340AA0003FB00 /* camera_disabled.png */; };
+		0347E17216B340AA0003FB00 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 0347E16D16B340AA0003FB00 /* camera.png */; };
+		0347E17316B340AA0003FB00 /* large_info_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0347E16E16B340AA0003FB00 /* large_info_bg.png */; };
+		0347E17616B347860003FB00 /* tick.png in Resources */ = {isa = PBXBuildFile; fileRef = 0347E17516B347860003FB00 /* tick.png */; };
+		0347E17A16B348990003FB00 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0347E17816B348990003FB00 /* HomeVC.m */; };
+		0347E17B16B348990003FB00 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0347E17916B348990003FB00 /* HomeVC.xib */; };
+		0347E17D16B349F40003FB00 /* but.png in Resources */ = {isa = PBXBuildFile; fileRef = 0347E17C16B349F40003FB00 /* but.png */; };
+		0347E18016B34AA60003FB00 /* app_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0347E17E16B34AA60003FB00 /* app_icon.png */; };
+		0347E18116B34AA60003FB00 /* wemakeplay_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0347E17F16B34AA60003FB00 /* wemakeplay_logo.png */; };
+		0374A54216A6ADC70048D413 /* ARTracker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0374A54016A6ADC70048D413 /* ARTracker.cpp */; };
+		0374A54A16A6C9CE0048D413 /* ARMarker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0374A54816A6C9CE0048D413 /* ARMarker.cpp */; };
+		03752F0F16B53F8C0099717D /* ARCameraIntrinsics.mm in Sources */ = {isa = PBXBuildFile; fileRef = 03752F0E16B53F8C0099717D /* ARCameraIntrinsics.mm */; };
+		03752F1716B565D60099717D /* calibration.dat in Resources */ = {isa = PBXBuildFile; fileRef = 03752F1616B565D60099717D /* calibration.dat */; };
+		03752F2616B59A0F0099717D /* OGLARModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 03752F2516B59A0F0099717D /* OGLARModel.m */; };
+		03752F2A16B5BC340099717D /* ARSceneVC.mm in Sources */ = {isa = PBXBuildFile; fileRef = 03752F2816B5BC340099717D /* ARSceneVC.mm */; };
+		03752F2B16B5BC340099717D /* ARSceneVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03752F2916B5BC340099717D /* ARSceneVC.xib */; };
+		03752F3116B5EB2D0099717D /* box_tex.png in Resources */ = {isa = PBXBuildFile; fileRef = 03752F3016B5EB2D0099717D /* box_tex.png */; };
+		0378C18016BE751900296F34 /* blue_tex.png in Resources */ = {isa = PBXBuildFile; fileRef = 0378C17C16BE751900296F34 /* blue_tex.png */; };
+		0378C18116BE751900296F34 /* court_tex.png in Resources */ = {isa = PBXBuildFile; fileRef = 0378C17D16BE751900296F34 /* court_tex.png */; };
+		0378C18216BE751900296F34 /* pink_tex.png in Resources */ = {isa = PBXBuildFile; fileRef = 0378C17E16BE751900296F34 /* pink_tex.png */; };
+		0378C18316BE751900296F34 /* yellow_tex.png in Resources */ = {isa = PBXBuildFile; fileRef = 0378C17F16BE751900296F34 /* yellow_tex.png */; };
+		0378C18616BE77D400296F34 /* ARPongBallGameObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0378C18516BE77D400296F34 /* ARPongBallGameObject.m */; };
+		0378C18916BE972B00296F34 /* ARPongBaseGameObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0378C18816BE972B00296F34 /* ARPongBaseGameObject.m */; };
+		0378C18B16BE9E3000296F34 /* borders_tex.png in Resources */ = {isa = PBXBuildFile; fileRef = 0378C18A16BE9E3000296F34 /* borders_tex.png */; };
+		0378C18D16BEF9D500296F34 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0378C18C16BEF9D500296F34 /* GameKit.framework */; };
+		0378C18F16BF054800296F34 /* markers_pong.png in Resources */ = {isa = PBXBuildFile; fileRef = 0378C18E16BF054800296F34 /* markers_pong.png */; };
+		0378C19116BF113900296F34 /* tree_tex.png in Resources */ = {isa = PBXBuildFile; fileRef = 0378C19016BF113900296F34 /* tree_tex.png */; };
+		0385835816B43CDC00ECCFE2 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 0385835716B43CDC00ECCFE2 /* home.png */; };
+		0386622F16B96BB400285C39 /* BaseARViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0386622E16B96BB400285C39 /* BaseARViewController.mm */; };
+		0386623316B96C3B00285C39 /* CameraCaptureVC.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0386623116B96C3B00285C39 /* CameraCaptureVC.mm */; };
+		0386623416B96C3B00285C39 /* CameraCaptureVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0386623216B96C3B00285C39 /* CameraCaptureVC.xib */; };
+		039853B616ACA9430084C581 /* ARTemplate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 039853B416ACA9430084C581 /* ARTemplate.cpp */; };
+		03A9D5B216A5FC4000029048 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 03A9D5B116A5FC4000029048 /* icon.png */; };
+		03A9D5B416A5FCC100029048 /* icon114.png in Resources */ = {isa = PBXBuildFile; fileRef = 03A9D5B316A5FCC100029048 /* icon114.png */; };
+		03A9D5B616A5FCE900029048 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03A9D5B516A5FCE900029048 /* icon@2x.png */; };
+		03A9D5BA16A6002D00029048 /* ARTrackerWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 03A9D5B916A6002D00029048 /* ARTrackerWrapper.mm */; };
+		03A9D5BC16A6097200029048 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A9D5BB16A6097200029048 /* AssetsLibrary.framework */; };
+		03A9D5BE16A6097A00029048 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A9D5BD16A6097A00029048 /* Accelerate.framework */; };
+		03A9D5C016A609AA00029048 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A9D5BF16A609AA00029048 /* QuartzCore.framework */; };
+		03FB2C4516A4B377006B2570 /* OGLMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FB2C4416A4B377006B2570 /* OGLMesh.m */; };
+		03FB2C4816A4B386006B2570 /* OGLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FB2C4716A4B386006B2570 /* OGLModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0300C25816B1DE9D002D5C39 /* CalibrationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalibrationVC.h; sourceTree = "<group>"; };
+		0300C25916B1DE9D002D5C39 /* CalibrationVC.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CalibrationVC.mm; sourceTree = "<group>"; };
+		0300C25A16B1DE9D002D5C39 /* CalibrationVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalibrationVC.xib; sourceTree = "<group>"; };
+		0300C25D16B1DECA002D5C39 /* BaseARViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseARViewController.h; sourceTree = "<group>"; };
+		0300C26116B1ED2E002D5C39 /* ARCalibrator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ARCalibrator.cpp; sourceTree = "<group>"; };
+		0300C26216B1ED2E002D5C39 /* ARCalibrator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCalibrator.h; sourceTree = "<group>"; };
+		0300C26416B1ED54002D5C39 /* ARCalibratorWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCalibratorWrapper.h; sourceTree = "<group>"; };
+		0300C26516B1ED54002D5C39 /* ARCalibratorWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ARCalibratorWrapper.mm; sourceTree = "<group>"; };
 		0320AB0816768685002B609D /* OpenCVAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCVAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0320AB0C16768685002B609D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0320AB0E16768685002B609D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -40,11 +107,86 @@
 		0320AB2216768685002B609D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		0320AB2416768685002B609D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		0320AB2616768685002B609D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		0320AB2816768685002B609D /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
-		0320AB2A16768685002B609D /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
-		0320AB2C16768685002B609D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0320AB2D16768685002B609D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0320AB3016768685002B609D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		0320AB2C16768685002B609D /* TrackerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrackerVC.h; sourceTree = "<group>"; };
+		0320AB2D16768685002B609D /* TrackerVC.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TrackerVC.mm; sourceTree = "<group>"; };
+		0320AB3016768685002B609D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TrackerVC.xib; sourceTree = "<group>"; };
+		0320AB371676869F002B609D /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		0320AB4716768A4C002B609D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		0320AB4D16769461002B609D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0320AB4F16769490002B609D /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		03391BE716A9F45500D60E69 /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
+		03391BE816A9F45500D60E69 /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
+		03391BEB16A9F64C00D60E69 /* green_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_dot.png; sourceTree = "<group>"; };
+		03391BEC16A9F64C00D60E69 /* grey_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grey_dot.png; sourceTree = "<group>"; };
+		03391BED16A9F64C00D60E69 /* info_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_bg.png; sourceTree = "<group>"; };
+		03391BEE16A9F64C00D60E69 /* red_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_dot.png; sourceTree = "<group>"; };
+		03415C7416BC76CA00741EAA /* ARPongSceneVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARPongSceneVC.h; sourceTree = "<group>"; };
+		03415C7516BC76CA00741EAA /* ARPongSceneVC.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ARPongSceneVC.mm; sourceTree = "<group>"; };
+		03415C7616BC76CA00741EAA /* ARPongSceneVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ARPongSceneVC.xib; sourceTree = "<group>"; };
+		03415C7E16BC7CA600741EAA /* ARPongPaddleGameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARPongPaddleGameObject.h; sourceTree = "<group>"; };
+		03415C7F16BC7CA600741EAA /* ARPongPaddleGameObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARPongPaddleGameObject.m; sourceTree = "<group>"; };
+		03415C8116BC7DBB00741EAA /* ARPongCourtGameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARPongCourtGameObject.h; sourceTree = "<group>"; };
+		03415C8216BC7DBB00741EAA /* ARPongCourtGameObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARPongCourtGameObject.m; sourceTree = "<group>"; };
+		0347E16A16B340AA0003FB00 /* calibrate_disabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calibrate_disabled.png; sourceTree = "<group>"; };
+		0347E16B16B340AA0003FB00 /* calibrate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calibrate.png; sourceTree = "<group>"; };
+		0347E16C16B340AA0003FB00 /* camera_disabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera_disabled.png; sourceTree = "<group>"; };
+		0347E16D16B340AA0003FB00 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		0347E16E16B340AA0003FB00 /* large_info_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = large_info_bg.png; sourceTree = "<group>"; };
+		0347E17516B347860003FB00 /* tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tick.png; sourceTree = "<group>"; };
+		0347E17716B348980003FB00 /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		0347E17816B348990003FB00 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		0347E17916B348990003FB00 /* HomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		0347E17C16B349F40003FB00 /* but.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = but.png; sourceTree = "<group>"; };
+		0347E17E16B34AA60003FB00 /* app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon.png; sourceTree = "<group>"; };
+		0347E17F16B34AA60003FB00 /* wemakeplay_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wemakeplay_logo.png; sourceTree = "<group>"; };
+		0374A54016A6ADC70048D413 /* ARTracker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ARTracker.cpp; sourceTree = "<group>"; };
+		0374A54116A6ADC70048D413 /* ARTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARTracker.h; sourceTree = "<group>"; };
+		0374A54816A6C9CE0048D413 /* ARMarker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ARMarker.cpp; sourceTree = "<group>"; };
+		0374A54916A6C9CE0048D413 /* ARMarker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARMarker.h; sourceTree = "<group>"; };
+		03752F0D16B53F8C0099717D /* ARCameraIntrinsics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCameraIntrinsics.h; sourceTree = "<group>"; };
+		03752F0E16B53F8C0099717D /* ARCameraIntrinsics.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ARCameraIntrinsics.mm; sourceTree = "<group>"; };
+		03752F1616B565D60099717D /* calibration.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = calibration.dat; path = assets/calibration.dat; sourceTree = "<group>"; };
+		03752F2216B584D90099717D /* ARUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARUtils.h; sourceTree = "<group>"; };
+		03752F2416B59A0F0099717D /* OGLARModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGLARModel.h; sourceTree = "<group>"; };
+		03752F2516B59A0F0099717D /* OGLARModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGLARModel.m; sourceTree = "<group>"; };
+		03752F2716B5BC340099717D /* ARSceneVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARSceneVC.h; sourceTree = "<group>"; };
+		03752F2816B5BC340099717D /* ARSceneVC.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ARSceneVC.mm; sourceTree = "<group>"; };
+		03752F2916B5BC340099717D /* ARSceneVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ARSceneVC.xib; sourceTree = "<group>"; };
+		03752F3016B5EB2D0099717D /* box_tex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box_tex.png; sourceTree = "<group>"; };
+		0378C17C16BE751900296F34 /* blue_tex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue_tex.png; sourceTree = "<group>"; };
+		0378C17D16BE751900296F34 /* court_tex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = court_tex.png; sourceTree = "<group>"; };
+		0378C17E16BE751900296F34 /* pink_tex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pink_tex.png; sourceTree = "<group>"; };
+		0378C17F16BE751900296F34 /* yellow_tex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow_tex.png; sourceTree = "<group>"; };
+		0378C18416BE77D400296F34 /* ARPongBallGameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARPongBallGameObject.h; sourceTree = "<group>"; };
+		0378C18516BE77D400296F34 /* ARPongBallGameObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARPongBallGameObject.m; sourceTree = "<group>"; };
+		0378C18716BE972B00296F34 /* ARPongBaseGameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARPongBaseGameObject.h; sourceTree = "<group>"; };
+		0378C18816BE972B00296F34 /* ARPongBaseGameObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARPongBaseGameObject.m; sourceTree = "<group>"; };
+		0378C18A16BE9E3000296F34 /* borders_tex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = borders_tex.png; sourceTree = "<group>"; };
+		0378C18C16BEF9D500296F34 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		0378C18E16BF054800296F34 /* markers_pong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = markers_pong.png; sourceTree = "<group>"; };
+		0378C19016BF113900296F34 /* tree_tex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tree_tex.png; sourceTree = "<group>"; };
+		0385835716B43CDC00ECCFE2 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		0385835E16B4424E00ECCFE2 /* IAppNavigation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IAppNavigation.h; sourceTree = "<group>"; };
+		0386622E16B96BB400285C39 /* BaseARViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BaseARViewController.mm; sourceTree = "<group>"; };
+		0386623016B96C3B00285C39 /* CameraCaptureVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraCaptureVC.h; sourceTree = "<group>"; };
+		0386623116B96C3B00285C39 /* CameraCaptureVC.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CameraCaptureVC.mm; sourceTree = "<group>"; };
+		0386623216B96C3B00285C39 /* CameraCaptureVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraCaptureVC.xib; sourceTree = "<group>"; };
+		0386BD7E16A4BBD500E951CC /* OGLMeshData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OGLMeshData.h; sourceTree = "<group>"; };
+		039853B416ACA9430084C581 /* ARTemplate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ARTemplate.cpp; sourceTree = "<group>"; };
+		039853B516ACA9430084C581 /* ARTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARTemplate.h; sourceTree = "<group>"; };
+		039853B816ACA9DB0084C581 /* ARConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARConstants.h; sourceTree = "<group>"; };
+		03A9D5B116A5FC4000029048 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		03A9D5B316A5FCC100029048 /* icon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon114.png; sourceTree = "<group>"; };
+		03A9D5B516A5FCE900029048 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		03A9D5B816A6002D00029048 /* ARTrackerWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARTrackerWrapper.h; sourceTree = "<group>"; };
+		03A9D5B916A6002D00029048 /* ARTrackerWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ARTrackerWrapper.mm; sourceTree = "<group>"; };
+		03A9D5BB16A6097200029048 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		03A9D5BD16A6097A00029048 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		03A9D5BF16A609AA00029048 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		03FB2C4316A4B377006B2570 /* OGLMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGLMesh.h; sourceTree = "<group>"; };
+		03FB2C4416A4B377006B2570 /* OGLMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGLMesh.m; sourceTree = "<group>"; };
+		03FB2C4616A4B386006B2570 /* OGLModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGLModel.h; sourceTree = "<group>"; };
+		03FB2C4716A4B386006B2570 /* OGLModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGLModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,20 +194,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0378C18D16BEF9D500296F34 /* GameKit.framework in Frameworks */,
+				03A9D5C016A609AA00029048 /* QuartzCore.framework in Frameworks */,
+				03A9D5BE16A6097A00029048 /* Accelerate.framework in Frameworks */,
+				03A9D5BC16A6097200029048 /* AssetsLibrary.framework in Frameworks */,
+				0320AB5016769490002B609D /* CoreVideo.framework in Frameworks */,
+				0320AB4E16769461002B609D /* AVFoundation.framework in Frameworks */,
+				0320AB4816768A4C002B609D /* CoreMedia.framework in Frameworks */,
 				0320AB0D16768685002B609D /* UIKit.framework in Frameworks */,
 				0320AB0F16768685002B609D /* Foundation.framework in Frameworks */,
 				0320AB1116768685002B609D /* CoreGraphics.framework in Frameworks */,
 				0320AB1316768685002B609D /* GLKit.framework in Frameworks */,
 				0320AB1516768685002B609D /* OpenGLES.framework in Frameworks */,
+				0320AB381676869F002B609D /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0300C26016B1DED3002D5C39 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0385835E16B4424E00ECCFE2 /* IAppNavigation.h */,
+				0347E17716B348980003FB00 /* HomeVC.h */,
+				0347E17816B348990003FB00 /* HomeVC.m */,
+				0347E17916B348990003FB00 /* HomeVC.xib */,
+				0300C25D16B1DECA002D5C39 /* BaseARViewController.h */,
+				0386622E16B96BB400285C39 /* BaseARViewController.mm */,
+				0300C25816B1DE9D002D5C39 /* CalibrationVC.h */,
+				0300C25916B1DE9D002D5C39 /* CalibrationVC.mm */,
+				0300C25A16B1DE9D002D5C39 /* CalibrationVC.xib */,
+				0386623016B96C3B00285C39 /* CameraCaptureVC.h */,
+				0386623116B96C3B00285C39 /* CameraCaptureVC.mm */,
+				0386623216B96C3B00285C39 /* CameraCaptureVC.xib */,
+				0320AB2C16768685002B609D /* TrackerVC.h */,
+				0320AB2D16768685002B609D /* TrackerVC.mm */,
+				0320AB2F16768685002B609D /* TrackerVC.xib */,
+				03752F2716B5BC340099717D /* ARSceneVC.h */,
+				03752F2816B5BC340099717D /* ARSceneVC.mm */,
+				03752F2916B5BC340099717D /* ARSceneVC.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		0320AAFD16768684002B609D = {
 			isa = PBXGroup;
 			children = (
+				03752F1516B565BD0099717D /* data */,
+				03391BE616A9F45500D60E69 /* assets */,
+				03A9D5B516A5FCE900029048 /* icon@2x.png */,
+				03A9D5B316A5FCC100029048 /* icon114.png */,
+				03A9D5B116A5FC4000029048 /* icon.png */,
 				0320AB1616768685002B609D /* OpenCVAR */,
 				0320AB0B16768685002B609D /* Frameworks */,
 				0320AB0916768685002B609D /* Products */,
@@ -83,6 +263,14 @@
 		0320AB0B16768685002B609D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0378C18C16BEF9D500296F34 /* GameKit.framework */,
+				03A9D5BF16A609AA00029048 /* QuartzCore.framework */,
+				03A9D5BD16A6097A00029048 /* Accelerate.framework */,
+				03A9D5BB16A6097200029048 /* AssetsLibrary.framework */,
+				0320AB4F16769490002B609D /* CoreVideo.framework */,
+				0320AB4D16769461002B609D /* AVFoundation.framework */,
+				0320AB4716768A4C002B609D /* CoreMedia.framework */,
+				0320AB371676869F002B609D /* opencv2.framework */,
 				0320AB0C16768685002B609D /* UIKit.framework */,
 				0320AB0E16768685002B609D /* Foundation.framework */,
 				0320AB1016768685002B609D /* CoreGraphics.framework */,
@@ -95,13 +283,12 @@
 		0320AB1616768685002B609D /* OpenCVAR */ = {
 			isa = PBXGroup;
 			children = (
+				0300C26016B1DED3002D5C39 /* Views */,
+				03A9D5B716A6001400029048 /* AR */,
+				03FB2C4216A4B360006B2570 /* OpenGL */,
+				03415C7D16BC7C8800741EAA /* ARPong */,
 				0320AB1F16768685002B609D /* AppDelegate.h */,
 				0320AB2016768685002B609D /* AppDelegate.m */,
-				0320AB2816768685002B609D /* Shader.fsh */,
-				0320AB2A16768685002B609D /* Shader.vsh */,
-				0320AB2C16768685002B609D /* ViewController.h */,
-				0320AB2D16768685002B609D /* ViewController.m */,
-				0320AB2F16768685002B609D /* ViewController.xib */,
 				0320AB1716768685002B609D /* Supporting Files */,
 			);
 			path = OpenCVAR;
@@ -119,6 +306,108 @@
 				0320AB2616768685002B609D /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03232A8A16ADED4800259645 /* markers */ = {
+			isa = PBXGroup;
+			children = (
+				0378C18E16BF054800296F34 /* markers_pong.png */,
+			);
+			path = markers;
+			sourceTree = "<group>";
+		};
+		03391BE616A9F45500D60E69 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				0378C19016BF113900296F34 /* tree_tex.png */,
+				0378C18A16BE9E3000296F34 /* borders_tex.png */,
+				0378C17C16BE751900296F34 /* blue_tex.png */,
+				0378C17D16BE751900296F34 /* court_tex.png */,
+				0378C17E16BE751900296F34 /* pink_tex.png */,
+				0378C17F16BE751900296F34 /* yellow_tex.png */,
+				03752F3016B5EB2D0099717D /* box_tex.png */,
+				0385835716B43CDC00ECCFE2 /* home.png */,
+				0347E17E16B34AA60003FB00 /* app_icon.png */,
+				0347E17F16B34AA60003FB00 /* wemakeplay_logo.png */,
+				0347E17C16B349F40003FB00 /* but.png */,
+				0347E17516B347860003FB00 /* tick.png */,
+				0347E16A16B340AA0003FB00 /* calibrate_disabled.png */,
+				0347E16B16B340AA0003FB00 /* calibrate.png */,
+				0347E16C16B340AA0003FB00 /* camera_disabled.png */,
+				0347E16D16B340AA0003FB00 /* camera.png */,
+				0347E16E16B340AA0003FB00 /* large_info_bg.png */,
+				03232A8A16ADED4800259645 /* markers */,
+				03391BEB16A9F64C00D60E69 /* green_dot.png */,
+				03391BEC16A9F64C00D60E69 /* grey_dot.png */,
+				03391BED16A9F64C00D60E69 /* info_bg.png */,
+				03391BEE16A9F64C00D60E69 /* red_dot.png */,
+				03391BE716A9F45500D60E69 /* left.png */,
+				03391BE816A9F45500D60E69 /* right.png */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		03415C7D16BC7C8800741EAA /* ARPong */ = {
+			isa = PBXGroup;
+			children = (
+				03415C7416BC76CA00741EAA /* ARPongSceneVC.h */,
+				03415C7516BC76CA00741EAA /* ARPongSceneVC.mm */,
+				03415C7616BC76CA00741EAA /* ARPongSceneVC.xib */,
+				0378C18716BE972B00296F34 /* ARPongBaseGameObject.h */,
+				0378C18816BE972B00296F34 /* ARPongBaseGameObject.m */,
+				03415C7E16BC7CA600741EAA /* ARPongPaddleGameObject.h */,
+				03415C7F16BC7CA600741EAA /* ARPongPaddleGameObject.m */,
+				03415C8116BC7DBB00741EAA /* ARPongCourtGameObject.h */,
+				03415C8216BC7DBB00741EAA /* ARPongCourtGameObject.m */,
+				0378C18416BE77D400296F34 /* ARPongBallGameObject.h */,
+				0378C18516BE77D400296F34 /* ARPongBallGameObject.m */,
+			);
+			name = ARPong;
+			sourceTree = "<group>";
+		};
+		03752F1516B565BD0099717D /* data */ = {
+			isa = PBXGroup;
+			children = (
+				03752F1616B565D60099717D /* calibration.dat */,
+			);
+			name = data;
+			sourceTree = "<group>";
+		};
+		03A9D5B716A6001400029048 /* AR */ = {
+			isa = PBXGroup;
+			children = (
+				03752F2216B584D90099717D /* ARUtils.h */,
+				039853B816ACA9DB0084C581 /* ARConstants.h */,
+				03A9D5B816A6002D00029048 /* ARTrackerWrapper.h */,
+				03A9D5B916A6002D00029048 /* ARTrackerWrapper.mm */,
+				0374A54116A6ADC70048D413 /* ARTracker.h */,
+				0374A54016A6ADC70048D413 /* ARTracker.cpp */,
+				0374A54916A6C9CE0048D413 /* ARMarker.h */,
+				0374A54816A6C9CE0048D413 /* ARMarker.cpp */,
+				039853B516ACA9430084C581 /* ARTemplate.h */,
+				039853B416ACA9430084C581 /* ARTemplate.cpp */,
+				0300C26216B1ED2E002D5C39 /* ARCalibrator.h */,
+				0300C26116B1ED2E002D5C39 /* ARCalibrator.cpp */,
+				0300C26416B1ED54002D5C39 /* ARCalibratorWrapper.h */,
+				0300C26516B1ED54002D5C39 /* ARCalibratorWrapper.mm */,
+				03752F0D16B53F8C0099717D /* ARCameraIntrinsics.h */,
+				03752F0E16B53F8C0099717D /* ARCameraIntrinsics.mm */,
+			);
+			name = AR;
+			sourceTree = "<group>";
+		};
+		03FB2C4216A4B360006B2570 /* OpenGL */ = {
+			isa = PBXGroup;
+			children = (
+				0386BD7E16A4BBD500E951CC /* OGLMeshData.h */,
+				03FB2C4316A4B377006B2570 /* OGLMesh.h */,
+				03FB2C4416A4B377006B2570 /* OGLMesh.m */,
+				03FB2C4616A4B386006B2570 /* OGLModel.h */,
+				03FB2C4716A4B386006B2570 /* OGLModel.m */,
+				03752F2416B59A0F0099717D /* OGLARModel.h */,
+				03752F2516B59A0F0099717D /* OGLARModel.m */,
+			);
+			name = OpenGL;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,9 +465,40 @@
 				0320AB2316768685002B609D /* Default.png in Resources */,
 				0320AB2516768685002B609D /* Default@2x.png in Resources */,
 				0320AB2716768685002B609D /* Default-568h@2x.png in Resources */,
-				0320AB2916768685002B609D /* Shader.fsh in Resources */,
-				0320AB2B16768685002B609D /* Shader.vsh in Resources */,
-				0320AB3116768685002B609D /* ViewController.xib in Resources */,
+				0320AB3116768685002B609D /* TrackerVC.xib in Resources */,
+				03A9D5B216A5FC4000029048 /* icon.png in Resources */,
+				03A9D5B416A5FCC100029048 /* icon114.png in Resources */,
+				03A9D5B616A5FCE900029048 /* icon@2x.png in Resources */,
+				03391BE916A9F45500D60E69 /* left.png in Resources */,
+				03391BEA16A9F45500D60E69 /* right.png in Resources */,
+				03391BEF16A9F64C00D60E69 /* green_dot.png in Resources */,
+				03391BF016A9F64C00D60E69 /* grey_dot.png in Resources */,
+				03391BF116A9F64C00D60E69 /* info_bg.png in Resources */,
+				03391BF216A9F64C00D60E69 /* red_dot.png in Resources */,
+				0300C25C16B1DE9D002D5C39 /* CalibrationVC.xib in Resources */,
+				0347E16F16B340AA0003FB00 /* calibrate_disabled.png in Resources */,
+				0347E17016B340AA0003FB00 /* calibrate.png in Resources */,
+				0347E17116B340AA0003FB00 /* camera_disabled.png in Resources */,
+				0347E17216B340AA0003FB00 /* camera.png in Resources */,
+				0347E17316B340AA0003FB00 /* large_info_bg.png in Resources */,
+				0347E17616B347860003FB00 /* tick.png in Resources */,
+				0347E17B16B348990003FB00 /* HomeVC.xib in Resources */,
+				0347E17D16B349F40003FB00 /* but.png in Resources */,
+				0347E18016B34AA60003FB00 /* app_icon.png in Resources */,
+				0347E18116B34AA60003FB00 /* wemakeplay_logo.png in Resources */,
+				0385835816B43CDC00ECCFE2 /* home.png in Resources */,
+				03752F1716B565D60099717D /* calibration.dat in Resources */,
+				03752F2B16B5BC340099717D /* ARSceneVC.xib in Resources */,
+				03752F3116B5EB2D0099717D /* box_tex.png in Resources */,
+				0386623416B96C3B00285C39 /* CameraCaptureVC.xib in Resources */,
+				03415C7816BC76CA00741EAA /* ARPongSceneVC.xib in Resources */,
+				0378C18016BE751900296F34 /* blue_tex.png in Resources */,
+				0378C18116BE751900296F34 /* court_tex.png in Resources */,
+				0378C18216BE751900296F34 /* pink_tex.png in Resources */,
+				0378C18316BE751900296F34 /* yellow_tex.png in Resources */,
+				0378C18B16BE9E3000296F34 /* borders_tex.png in Resources */,
+				0378C18F16BF054800296F34 /* markers_pong.png in Resources */,
+				0378C19116BF113900296F34 /* tree_tex.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,7 +511,27 @@
 			files = (
 				0320AB1D16768685002B609D /* main.m in Sources */,
 				0320AB2116768685002B609D /* AppDelegate.m in Sources */,
-				0320AB2E16768685002B609D /* ViewController.m in Sources */,
+				0320AB2E16768685002B609D /* TrackerVC.mm in Sources */,
+				03FB2C4516A4B377006B2570 /* OGLMesh.m in Sources */,
+				03FB2C4816A4B386006B2570 /* OGLModel.m in Sources */,
+				03A9D5BA16A6002D00029048 /* ARTrackerWrapper.mm in Sources */,
+				0374A54216A6ADC70048D413 /* ARTracker.cpp in Sources */,
+				0374A54A16A6C9CE0048D413 /* ARMarker.cpp in Sources */,
+				039853B616ACA9430084C581 /* ARTemplate.cpp in Sources */,
+				0300C25B16B1DE9D002D5C39 /* CalibrationVC.mm in Sources */,
+				0300C26316B1ED2E002D5C39 /* ARCalibrator.cpp in Sources */,
+				0300C26616B1ED54002D5C39 /* ARCalibratorWrapper.mm in Sources */,
+				0347E17A16B348990003FB00 /* HomeVC.m in Sources */,
+				03752F0F16B53F8C0099717D /* ARCameraIntrinsics.mm in Sources */,
+				03752F2616B59A0F0099717D /* OGLARModel.m in Sources */,
+				03752F2A16B5BC340099717D /* ARSceneVC.mm in Sources */,
+				0386622F16B96BB400285C39 /* BaseARViewController.mm in Sources */,
+				0386623316B96C3B00285C39 /* CameraCaptureVC.mm in Sources */,
+				03415C7716BC76CA00741EAA /* ARPongSceneVC.mm in Sources */,
+				03415C8016BC7CA600741EAA /* ARPongPaddleGameObject.m in Sources */,
+				03415C8316BC7DBB00741EAA /* ARPongCourtGameObject.m in Sources */,
+				0378C18616BE77D400296F34 /* ARPongBallGameObject.m in Sources */,
+				0378C18916BE972B00296F34 /* ARPongBaseGameObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,12 +546,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		0320AB2F16768685002B609D /* ViewController.xib */ = {
+		0320AB2F16768685002B609D /* TrackerVC.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				0320AB3016768685002B609D /* en */,
 			);
-			name = ViewController.xib;
+			name = TrackerVC.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -268,6 +608,10 @@
 		0320AB3516768685002B609D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenCVAR/OpenCVAR-Prefix.pch";
 				INFOPLIST_FILE = "OpenCVAR/OpenCVAR-Info.plist";
@@ -279,6 +623,10 @@
 		0320AB3616768685002B609D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OpenCVAR/OpenCVAR-Prefix.pch";
 				INFOPLIST_FILE = "OpenCVAR/OpenCVAR-Info.plist";
@@ -306,6 +654,7 @@
 				0320AB3616768685002B609D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,13 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "IAppNavigation.h"
 
-@class ViewController;
-
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate, IAppNavigation>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) ViewController *viewController;
+@property (strong, nonatomic) UIViewController *currentController;
 
 @end

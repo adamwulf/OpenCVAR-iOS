@@ -8,14 +8,19 @@
 
 #import "AppDelegate.h"
 
-#import "ViewController.h"
+#import "HomeVC.h"
+#import "CalibrationVC.h"
+#import "CameraCaptureVC.h"
+#import "TrackerVC.h"
+#import "ARSceneVC.h"
+#import "ARPongSceneVC.h"
 
 @implementation AppDelegate
 
 - (void)dealloc
 {
     [_window release];
-    [_viewController release];
+    self.currentController = nil;
     [super dealloc];
 }
 
@@ -23,9 +28,9 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
-    self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController" bundle:nil] autorelease];
-    self.window.rootViewController = self.viewController;
-    [self.window makeKeyAndVisible];
+    
+    [self navigateBackHome];    
+    
     return YES;
 }
 
@@ -54,6 +59,54 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+#pragma mark - 
+#pragma navigation methods 
+
+-(void) navigateBackHome{
+    
+    HomeVC *nextController = [[[HomeVC alloc] initWithNibName:@"HomeVC" bundle:nil] autorelease];
+    nextController.navDelegate = self; 
+    self.window.rootViewController = nextController;
+    self.currentController = nextController;
+    
+    [self.window makeKeyAndVisible];
+}
+
+-(void) navigateToARCalibrationController{
+    CalibrationVC *nextController = [[[CalibrationVC alloc] initWithNibName:@"CalibrationVC" bundle:nil] autorelease];
+    nextController.navDelegate = self;
+    self.window.rootViewController = nextController;
+    self.currentController = nextController;
+}
+
+-(void) navigateToARCameraCaptureController{
+    CameraCaptureVC *nextController = [[[CameraCaptureVC alloc] initWithNibName:@"CameraCaptureVC" bundle:nil] autorelease];
+    nextController.navDelegate = self;
+    self.window.rootViewController = nextController;
+    self.currentController = nextController;
+}
+
+-(void) navigateToARTrackerController{
+    TrackerVC *nextController = [[[TrackerVC alloc] initWithNibName:@"TrackerVC" bundle:nil] autorelease];
+    nextController.navDelegate = self;
+    self.window.rootViewController = nextController;
+    self.currentController = nextController;
+}
+
+-(void) navigateToARSceneController{
+    ARSceneVC *nextController = [[[ARSceneVC alloc] initWithNibName:@"ARSceneVC" bundle:nil] autorelease];
+    nextController.navDelegate = self;
+    self.window.rootViewController = nextController;
+    self.currentController = nextController;
+}
+
+-(void) navigateToARUFOSceneController{
+    ARPongSceneVC *nextController = [[[ARPongSceneVC alloc] initWithNibName:@"ARPongSceneVC" bundle:nil] autorelease];
+    nextController.navDelegate = self;
+    self.window.rootViewController = nextController;
+    self.currentController = nextController;
 }
 
 @end
