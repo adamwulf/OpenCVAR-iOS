@@ -12,7 +12,7 @@
 #import "BaseARViewController.h"
 #import "IAppNavigation.h"
 
-@interface TrackerVC : BaseARViewController {
+@interface TrackerViewController : BaseARViewController {
     IBOutlet UILabel *stateLabel;
     IBOutlet UIImageView *stateImage;
     IBOutlet UIPageControl *pageControl;

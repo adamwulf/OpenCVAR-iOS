@@ -1,12 +1,12 @@
 //
-//  ARSceneVC.m
+//  ARSceneViewController.m
 //  OpenCVAR
 //
 //  Created by Joshua Newnham on 27/01/2013.
 //  Copyright (c) 2013 We Make Play. All rights reserved.
 //
 
-#import "ARSceneVC.h"
+#import "ARSceneViewController.h"
 #import "OGLMesh.h"
 #import "OGLModel.h"
 #import "OGLARModel.h"
@@ -29,7 +29,7 @@ static GLKMatrix4 cvMatToGLKMatrix( cv::Mat& mat ){
 #define MODEL_TTL 2  // time to live once the marker has been lost
 #define AR_ID_PLATFORM  200
 
-@interface ARSceneVC () {
+@interface ARSceneViewController () {
     
     ARTrackerWrapper *_tracker;
 }
@@ -41,7 +41,7 @@ static GLKMatrix4 cvMatToGLKMatrix( cv::Mat& mat ){
 
 @end
 
-@implementation ARSceneVC
+@implementation ARSceneViewController
 
 - (void)dealloc
 {

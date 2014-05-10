@@ -1,18 +1,18 @@
 //
-//  CameraCaptureVC.m
+//  CameraCaptureViewController.m
 //  OpenCVAR
 //
 //  Created by Joshua Newnham on 30/01/2013.
 //  Copyright (c) 2013 We Make Play. All rights reserved.
 //
 
-#import "CameraCaptureVC.h"
+#import "CameraCaptureViewController.h"
 
-@interface CameraCaptureVC ()
+@interface CameraCaptureViewController ()
 
 @end
 
-@implementation CameraCaptureVC
+@implementation CameraCaptureViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

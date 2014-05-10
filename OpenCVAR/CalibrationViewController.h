@@ -1,5 +1,5 @@
 //
-//  CalibrationVC.h
+//  CalibrationViewController.h
 //  OpenCVAR
 //
 //  Created by Joshua Newnham on 24/01/2013.
@@ -11,7 +11,7 @@
 #import "BaseARViewController.h"
 #import "IAppNavigation.h"
 
-@interface CalibrationVC : BaseARViewController{
+@interface CalibrationViewController : BaseARViewController{
 
     IBOutlet UIButton *processFrameBut;
     IBOutlet UIButton *calibrateBut;

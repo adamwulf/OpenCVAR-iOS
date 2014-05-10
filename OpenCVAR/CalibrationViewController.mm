@@ -1,12 +1,12 @@
 //
-//  CalibrationVC.m
+//  CalibrationViewController.m
 //  OpenCVAR
 //
 //  Created by Joshua Newnham on 24/01/2013.
 //  Copyright (c) 2013 We Make Play. All rights reserved.
 //
 
-#import "CalibrationVC.h"
+#import "CalibrationViewController.h"
 #import "OGLMesh.h"
 #import "OGLModel.h"
 #import "OGLMeshData.h"
@@ -19,7 +19,7 @@
 
 using namespace cv;
 
-@interface CalibrationVC (){
+@interface CalibrationViewController (){
     ARCalibratorWrapper *_arCalib;
     
     BOOL _processFrameRequested;
@@ -36,7 +36,7 @@ using namespace cv;
 
 @end
 
-@implementation CalibrationVC 
+@implementation CalibrationViewController 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

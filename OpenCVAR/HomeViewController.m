@@ -6,13 +6,13 @@
 //  Copyright (c) 2013 We Make Play. All rights reserved.
 //
 
-#import "HomeVC.h"
+#import "HomeViewController.h"
 
-@interface HomeVC ()
+@interface HomeViewController ()
 
 @end
 
-@implementation HomeVC
+@implementation HomeViewController
 
 @synthesize navDelegate; 
 

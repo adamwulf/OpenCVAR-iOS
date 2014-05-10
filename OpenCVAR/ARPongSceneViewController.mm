@@ -1,12 +1,12 @@
 //
-//  ARPongSceneVC.m
+//  ARPongSceneViewController.m
 //  OpenCVAR
 //
 //  Created by Joshua Newnham on 01/02/2013.
 //  Copyright (c) 2013 We Make Play. All rights reserved.
 //
 
-#import "ARPongSceneVC.h"
+#import "ARPongSceneViewController.h"
 #import "OGLMesh.h"
 #import "OGLModel.h"
 #import "OGLARModel.h"
@@ -68,7 +68,7 @@ static GLKMatrix4 cvMatToGLKMatrix( cv::Mat& mat ){
 
 #define MAX_GAMEKIT_PACKET_SIZE 1024
 
-@interface ARPongSceneVC (){
+@interface ARPongSceneViewController (){
     ARTrackerWrapper *_tracker;
     
     GLKVector3 _cameraPosition;
@@ -114,7 +114,7 @@ static GLKMatrix4 cvMatToGLKMatrix( cv::Mat& mat ){
 
 @end
 
-@implementation ARPongSceneVC
+@implementation ARPongSceneViewController
 
 @synthesize pinkPaddle;
 @synthesize bluePaddle;

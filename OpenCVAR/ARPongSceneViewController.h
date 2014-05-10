@@ -1,5 +1,5 @@
 //
-//  ARPongSceneVC.h
+//  ARPongSceneViewController.h
 //  OpenCVAR
 //
 //  Created by Joshua Newnham on 01/02/2013.
@@ -19,7 +19,7 @@ typedef enum _modeEnum{
     Mode_Multiplayer
 } Mode;
 
-@interface ARPongSceneVC : BaseARViewController <GKPeerPickerControllerDelegate, GKSessionDelegate, UIAlertViewDelegate>{
+@interface ARPongSceneViewController : BaseARViewController <GKPeerPickerControllerDelegate, GKSessionDelegate, UIAlertViewDelegate>{
     
     IBOutlet UIImageView *trackingStatus;
     IBOutlet UILabel *localScoreLbl;

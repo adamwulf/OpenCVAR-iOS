@@ -8,7 +8,7 @@
 
 #import "IAppNavigation.h"
 
-@interface HomeVC : UIViewController
+@interface HomeViewController : UIViewController
 
 @property (nonatomic,assign) id<IAppNavigation> navDelegate;
 

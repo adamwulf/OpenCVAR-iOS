@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0300C25B16B1DE9D002D5C39 /* CalibrationVC.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0300C25916B1DE9D002D5C39 /* CalibrationVC.mm */; };
-		0300C25C16B1DE9D002D5C39 /* CalibrationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0300C25A16B1DE9D002D5C39 /* CalibrationVC.xib */; };
+		0300C25B16B1DE9D002D5C39 /* CalibrationViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0300C25916B1DE9D002D5C39 /* CalibrationViewController.mm */; };
+		0300C25C16B1DE9D002D5C39 /* CalibrationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0300C25A16B1DE9D002D5C39 /* CalibrationViewController.xib */; };
 		0300C26316B1ED2E002D5C39 /* ARCalibrator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0300C26116B1ED2E002D5C39 /* ARCalibrator.cpp */; };
 		0300C26616B1ED54002D5C39 /* ARCalibratorWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0300C26516B1ED54002D5C39 /* ARCalibratorWrapper.mm */; };
 		0320AB0D16768685002B609D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0320AB0C16768685002B609D /* UIKit.framework */; };
@@ -22,8 +22,8 @@
 		0320AB2316768685002B609D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0320AB2216768685002B609D /* Default.png */; };
 		0320AB2516768685002B609D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0320AB2416768685002B609D /* Default@2x.png */; };
 		0320AB2716768685002B609D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0320AB2616768685002B609D /* Default-568h@2x.png */; };
-		0320AB2E16768685002B609D /* TrackerVC.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0320AB2D16768685002B609D /* TrackerVC.mm */; };
-		0320AB3116768685002B609D /* TrackerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0320AB2F16768685002B609D /* TrackerVC.xib */; };
+		0320AB2E16768685002B609D /* TrackerViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0320AB2D16768685002B609D /* TrackerViewController.mm */; };
+		0320AB3116768685002B609D /* TrackerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0320AB2F16768685002B609D /* TrackerViewController.xib */; };
 		0320AB381676869F002B609D /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0320AB371676869F002B609D /* opencv2.framework */; };
 		0320AB4816768A4C002B609D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0320AB4716768A4C002B609D /* CoreMedia.framework */; };
 		0320AB4E16769461002B609D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0320AB4D16769461002B609D /* AVFoundation.framework */; };
@@ -34,8 +34,8 @@
 		03391BF016A9F64C00D60E69 /* grey_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 03391BEC16A9F64C00D60E69 /* grey_dot.png */; };
 		03391BF116A9F64C00D60E69 /* info_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 03391BED16A9F64C00D60E69 /* info_bg.png */; };
 		03391BF216A9F64C00D60E69 /* red_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 03391BEE16A9F64C00D60E69 /* red_dot.png */; };
-		03415C7716BC76CA00741EAA /* ARPongSceneVC.mm in Sources */ = {isa = PBXBuildFile; fileRef = 03415C7516BC76CA00741EAA /* ARPongSceneVC.mm */; };
-		03415C7816BC76CA00741EAA /* ARPongSceneVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03415C7616BC76CA00741EAA /* ARPongSceneVC.xib */; };
+		03415C7716BC76CA00741EAA /* ARPongSceneViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 03415C7516BC76CA00741EAA /* ARPongSceneViewController.mm */; };
+		03415C7816BC76CA00741EAA /* ARPongSceneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03415C7616BC76CA00741EAA /* ARPongSceneViewController.xib */; };
 		03415C8016BC7CA600741EAA /* ARPongPaddleGameObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 03415C7F16BC7CA600741EAA /* ARPongPaddleGameObject.m */; };
 		03415C8316BC7DBB00741EAA /* ARPongCourtGameObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 03415C8216BC7DBB00741EAA /* ARPongCourtGameObject.m */; };
 		0347E16F16B340AA0003FB00 /* calibrate_disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 0347E16A16B340AA0003FB00 /* calibrate_disabled.png */; };
@@ -44,8 +44,8 @@
 		0347E17216B340AA0003FB00 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 0347E16D16B340AA0003FB00 /* camera.png */; };
 		0347E17316B340AA0003FB00 /* large_info_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0347E16E16B340AA0003FB00 /* large_info_bg.png */; };
 		0347E17616B347860003FB00 /* tick.png in Resources */ = {isa = PBXBuildFile; fileRef = 0347E17516B347860003FB00 /* tick.png */; };
-		0347E17A16B348990003FB00 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0347E17816B348990003FB00 /* HomeVC.m */; };
-		0347E17B16B348990003FB00 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0347E17916B348990003FB00 /* HomeVC.xib */; };
+		0347E17A16B348990003FB00 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0347E17816B348990003FB00 /* HomeViewController.m */; };
+		0347E17B16B348990003FB00 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0347E17916B348990003FB00 /* HomeViewController.xib */; };
 		0347E17D16B349F40003FB00 /* but.png in Resources */ = {isa = PBXBuildFile; fileRef = 0347E17C16B349F40003FB00 /* but.png */; };
 		0347E18016B34AA60003FB00 /* app_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0347E17E16B34AA60003FB00 /* app_icon.png */; };
 		0347E18116B34AA60003FB00 /* wemakeplay_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0347E17F16B34AA60003FB00 /* wemakeplay_logo.png */; };
@@ -54,8 +54,8 @@
 		03752F0F16B53F8C0099717D /* ARCameraIntrinsics.mm in Sources */ = {isa = PBXBuildFile; fileRef = 03752F0E16B53F8C0099717D /* ARCameraIntrinsics.mm */; };
 		03752F1716B565D60099717D /* calibration.dat in Resources */ = {isa = PBXBuildFile; fileRef = 03752F1616B565D60099717D /* calibration.dat */; };
 		03752F2616B59A0F0099717D /* OGLARModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 03752F2516B59A0F0099717D /* OGLARModel.m */; };
-		03752F2A16B5BC340099717D /* ARSceneVC.mm in Sources */ = {isa = PBXBuildFile; fileRef = 03752F2816B5BC340099717D /* ARSceneVC.mm */; };
-		03752F2B16B5BC340099717D /* ARSceneVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03752F2916B5BC340099717D /* ARSceneVC.xib */; };
+		03752F2A16B5BC340099717D /* ARSceneViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 03752F2816B5BC340099717D /* ARSceneViewController.mm */; };
+		03752F2B16B5BC340099717D /* ARSceneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03752F2916B5BC340099717D /* ARSceneViewController.xib */; };
 		03752F3116B5EB2D0099717D /* box_tex.png in Resources */ = {isa = PBXBuildFile; fileRef = 03752F3016B5EB2D0099717D /* box_tex.png */; };
 		0378C18016BE751900296F34 /* blue_tex.png in Resources */ = {isa = PBXBuildFile; fileRef = 0378C17C16BE751900296F34 /* blue_tex.png */; };
 		0378C18116BE751900296F34 /* court_tex.png in Resources */ = {isa = PBXBuildFile; fileRef = 0378C17D16BE751900296F34 /* court_tex.png */; };
@@ -69,8 +69,8 @@
 		0378C19116BF113900296F34 /* tree_tex.png in Resources */ = {isa = PBXBuildFile; fileRef = 0378C19016BF113900296F34 /* tree_tex.png */; };
 		0385835816B43CDC00ECCFE2 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 0385835716B43CDC00ECCFE2 /* home.png */; };
 		0386622F16B96BB400285C39 /* BaseARViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0386622E16B96BB400285C39 /* BaseARViewController.mm */; };
-		0386623316B96C3B00285C39 /* CameraCaptureVC.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0386623116B96C3B00285C39 /* CameraCaptureVC.mm */; };
-		0386623416B96C3B00285C39 /* CameraCaptureVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0386623216B96C3B00285C39 /* CameraCaptureVC.xib */; };
+		0386623316B96C3B00285C39 /* CameraCaptureViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0386623116B96C3B00285C39 /* CameraCaptureViewController.mm */; };
+		0386623416B96C3B00285C39 /* CameraCaptureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0386623216B96C3B00285C39 /* CameraCaptureViewController.xib */; };
 		039853B616ACA9430084C581 /* ARTemplate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 039853B416ACA9430084C581 /* ARTemplate.cpp */; };
 		03A9D5B216A5FC4000029048 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 03A9D5B116A5FC4000029048 /* icon.png */; };
 		03A9D5B416A5FCC100029048 /* icon114.png in Resources */ = {isa = PBXBuildFile; fileRef = 03A9D5B316A5FCC100029048 /* icon114.png */; };
@@ -84,9 +84,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0300C25816B1DE9D002D5C39 /* CalibrationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalibrationVC.h; sourceTree = "<group>"; };
-		0300C25916B1DE9D002D5C39 /* CalibrationVC.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CalibrationVC.mm; sourceTree = "<group>"; };
-		0300C25A16B1DE9D002D5C39 /* CalibrationVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalibrationVC.xib; sourceTree = "<group>"; };
+		0300C25816B1DE9D002D5C39 /* CalibrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalibrationViewController.h; sourceTree = "<group>"; };
+		0300C25916B1DE9D002D5C39 /* CalibrationViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CalibrationViewController.mm; sourceTree = "<group>"; };
+		0300C25A16B1DE9D002D5C39 /* CalibrationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalibrationViewController.xib; sourceTree = "<group>"; };
 		0300C25D16B1DECA002D5C39 /* BaseARViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseARViewController.h; sourceTree = "<group>"; };
 		0300C26116B1ED2E002D5C39 /* ARCalibrator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ARCalibrator.cpp; sourceTree = "<group>"; };
 		0300C26216B1ED2E002D5C39 /* ARCalibrator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCalibrator.h; sourceTree = "<group>"; };
@@ -107,9 +107,9 @@
 		0320AB2216768685002B609D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		0320AB2416768685002B609D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		0320AB2616768685002B609D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		0320AB2C16768685002B609D /* TrackerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrackerVC.h; sourceTree = "<group>"; };
-		0320AB2D16768685002B609D /* TrackerVC.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TrackerVC.mm; sourceTree = "<group>"; };
-		0320AB3016768685002B609D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TrackerVC.xib; sourceTree = "<group>"; };
+		0320AB2C16768685002B609D /* TrackerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrackerViewController.h; sourceTree = "<group>"; };
+		0320AB2D16768685002B609D /* TrackerViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TrackerViewController.mm; sourceTree = "<group>"; };
+		0320AB3016768685002B609D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TrackerViewController.xib; sourceTree = "<group>"; };
 		0320AB371676869F002B609D /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		0320AB4716768A4C002B609D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		0320AB4D16769461002B609D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -120,9 +120,9 @@
 		03391BEC16A9F64C00D60E69 /* grey_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grey_dot.png; sourceTree = "<group>"; };
 		03391BED16A9F64C00D60E69 /* info_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_bg.png; sourceTree = "<group>"; };
 		03391BEE16A9F64C00D60E69 /* red_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red_dot.png; sourceTree = "<group>"; };
-		03415C7416BC76CA00741EAA /* ARPongSceneVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARPongSceneVC.h; sourceTree = "<group>"; };
-		03415C7516BC76CA00741EAA /* ARPongSceneVC.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ARPongSceneVC.mm; sourceTree = "<group>"; };
-		03415C7616BC76CA00741EAA /* ARPongSceneVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ARPongSceneVC.xib; sourceTree = "<group>"; };
+		03415C7416BC76CA00741EAA /* ARPongSceneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARPongSceneViewController.h; sourceTree = "<group>"; };
+		03415C7516BC76CA00741EAA /* ARPongSceneViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ARPongSceneViewController.mm; sourceTree = "<group>"; };
+		03415C7616BC76CA00741EAA /* ARPongSceneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ARPongSceneViewController.xib; sourceTree = "<group>"; };
 		03415C7E16BC7CA600741EAA /* ARPongPaddleGameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARPongPaddleGameObject.h; sourceTree = "<group>"; };
 		03415C7F16BC7CA600741EAA /* ARPongPaddleGameObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARPongPaddleGameObject.m; sourceTree = "<group>"; };
 		03415C8116BC7DBB00741EAA /* ARPongCourtGameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARPongCourtGameObject.h; sourceTree = "<group>"; };
@@ -133,9 +133,9 @@
 		0347E16D16B340AA0003FB00 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
 		0347E16E16B340AA0003FB00 /* large_info_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = large_info_bg.png; sourceTree = "<group>"; };
 		0347E17516B347860003FB00 /* tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tick.png; sourceTree = "<group>"; };
-		0347E17716B348980003FB00 /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
-		0347E17816B348990003FB00 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
-		0347E17916B348990003FB00 /* HomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		0347E17716B348980003FB00 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		0347E17816B348990003FB00 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		0347E17916B348990003FB00 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		0347E17C16B349F40003FB00 /* but.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = but.png; sourceTree = "<group>"; };
 		0347E17E16B34AA60003FB00 /* app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon.png; sourceTree = "<group>"; };
 		0347E17F16B34AA60003FB00 /* wemakeplay_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wemakeplay_logo.png; sourceTree = "<group>"; };
@@ -149,9 +149,9 @@
 		03752F2216B584D90099717D /* ARUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARUtils.h; sourceTree = "<group>"; };
 		03752F2416B59A0F0099717D /* OGLARModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGLARModel.h; sourceTree = "<group>"; };
 		03752F2516B59A0F0099717D /* OGLARModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGLARModel.m; sourceTree = "<group>"; };
-		03752F2716B5BC340099717D /* ARSceneVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARSceneVC.h; sourceTree = "<group>"; };
-		03752F2816B5BC340099717D /* ARSceneVC.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ARSceneVC.mm; sourceTree = "<group>"; };
-		03752F2916B5BC340099717D /* ARSceneVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ARSceneVC.xib; sourceTree = "<group>"; };
+		03752F2716B5BC340099717D /* ARSceneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARSceneViewController.h; sourceTree = "<group>"; };
+		03752F2816B5BC340099717D /* ARSceneViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ARSceneViewController.mm; sourceTree = "<group>"; };
+		03752F2916B5BC340099717D /* ARSceneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ARSceneViewController.xib; sourceTree = "<group>"; };
 		03752F3016B5EB2D0099717D /* box_tex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box_tex.png; sourceTree = "<group>"; };
 		0378C17C16BE751900296F34 /* blue_tex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue_tex.png; sourceTree = "<group>"; };
 		0378C17D16BE751900296F34 /* court_tex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = court_tex.png; sourceTree = "<group>"; };
@@ -168,9 +168,9 @@
 		0385835716B43CDC00ECCFE2 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
 		0385835E16B4424E00ECCFE2 /* IAppNavigation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IAppNavigation.h; sourceTree = "<group>"; };
 		0386622E16B96BB400285C39 /* BaseARViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BaseARViewController.mm; sourceTree = "<group>"; };
-		0386623016B96C3B00285C39 /* CameraCaptureVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraCaptureVC.h; sourceTree = "<group>"; };
-		0386623116B96C3B00285C39 /* CameraCaptureVC.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CameraCaptureVC.mm; sourceTree = "<group>"; };
-		0386623216B96C3B00285C39 /* CameraCaptureVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraCaptureVC.xib; sourceTree = "<group>"; };
+		0386623016B96C3B00285C39 /* CameraCaptureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraCaptureViewController.h; sourceTree = "<group>"; };
+		0386623116B96C3B00285C39 /* CameraCaptureViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CameraCaptureViewController.mm; sourceTree = "<group>"; };
+		0386623216B96C3B00285C39 /* CameraCaptureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraCaptureViewController.xib; sourceTree = "<group>"; };
 		0386BD7E16A4BBD500E951CC /* OGLMeshData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OGLMeshData.h; sourceTree = "<group>"; };
 		039853B416ACA9430084C581 /* ARTemplate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ARTemplate.cpp; sourceTree = "<group>"; };
 		039853B516ACA9430084C581 /* ARTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARTemplate.h; sourceTree = "<group>"; };
@@ -217,23 +217,23 @@
 			isa = PBXGroup;
 			children = (
 				0385835E16B4424E00ECCFE2 /* IAppNavigation.h */,
-				0347E17716B348980003FB00 /* HomeVC.h */,
-				0347E17816B348990003FB00 /* HomeVC.m */,
-				0347E17916B348990003FB00 /* HomeVC.xib */,
+				0347E17716B348980003FB00 /* HomeViewController.h */,
+				0347E17816B348990003FB00 /* HomeViewController.m */,
+				0347E17916B348990003FB00 /* HomeViewController.xib */,
 				0300C25D16B1DECA002D5C39 /* BaseARViewController.h */,
 				0386622E16B96BB400285C39 /* BaseARViewController.mm */,
-				0300C25816B1DE9D002D5C39 /* CalibrationVC.h */,
-				0300C25916B1DE9D002D5C39 /* CalibrationVC.mm */,
-				0300C25A16B1DE9D002D5C39 /* CalibrationVC.xib */,
-				0386623016B96C3B00285C39 /* CameraCaptureVC.h */,
-				0386623116B96C3B00285C39 /* CameraCaptureVC.mm */,
-				0386623216B96C3B00285C39 /* CameraCaptureVC.xib */,
-				0320AB2C16768685002B609D /* TrackerVC.h */,
-				0320AB2D16768685002B609D /* TrackerVC.mm */,
-				0320AB2F16768685002B609D /* TrackerVC.xib */,
-				03752F2716B5BC340099717D /* ARSceneVC.h */,
-				03752F2816B5BC340099717D /* ARSceneVC.mm */,
-				03752F2916B5BC340099717D /* ARSceneVC.xib */,
+				0300C25816B1DE9D002D5C39 /* CalibrationViewController.h */,
+				0300C25916B1DE9D002D5C39 /* CalibrationViewController.mm */,
+				0300C25A16B1DE9D002D5C39 /* CalibrationViewController.xib */,
+				0386623016B96C3B00285C39 /* CameraCaptureViewController.h */,
+				0386623116B96C3B00285C39 /* CameraCaptureViewController.mm */,
+				0386623216B96C3B00285C39 /* CameraCaptureViewController.xib */,
+				0320AB2C16768685002B609D /* TrackerViewController.h */,
+				0320AB2D16768685002B609D /* TrackerViewController.mm */,
+				0320AB2F16768685002B609D /* TrackerViewController.xib */,
+				03752F2716B5BC340099717D /* ARSceneViewController.h */,
+				03752F2816B5BC340099717D /* ARSceneViewController.mm */,
+				03752F2916B5BC340099717D /* ARSceneViewController.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -242,6 +242,7 @@
 			isa = PBXGroup;
 			children = (
 				03752F1516B565BD0099717D /* data */,
+				03232A8A16ADED4800259645 /* markers */,
 				03391BE616A9F45500D60E69 /* assets */,
 				03A9D5B516A5FCE900029048 /* icon@2x.png */,
 				03A9D5B316A5FCC100029048 /* icon114.png */,
@@ -313,7 +314,8 @@
 			children = (
 				0378C18E16BF054800296F34 /* markers_pong.png */,
 			);
-			path = markers;
+			name = markers;
+			path = assets/markers;
 			sourceTree = "<group>";
 		};
 		03391BE616A9F45500D60E69 /* assets */ = {
@@ -336,7 +338,6 @@
 				0347E16C16B340AA0003FB00 /* camera_disabled.png */,
 				0347E16D16B340AA0003FB00 /* camera.png */,
 				0347E16E16B340AA0003FB00 /* large_info_bg.png */,
-				03232A8A16ADED4800259645 /* markers */,
 				03391BEB16A9F64C00D60E69 /* green_dot.png */,
 				03391BEC16A9F64C00D60E69 /* grey_dot.png */,
 				03391BED16A9F64C00D60E69 /* info_bg.png */,
@@ -350,9 +351,9 @@
 		03415C7D16BC7C8800741EAA /* ARPong */ = {
 			isa = PBXGroup;
 			children = (
-				03415C7416BC76CA00741EAA /* ARPongSceneVC.h */,
-				03415C7516BC76CA00741EAA /* ARPongSceneVC.mm */,
-				03415C7616BC76CA00741EAA /* ARPongSceneVC.xib */,
+				03415C7416BC76CA00741EAA /* ARPongSceneViewController.h */,
+				03415C7516BC76CA00741EAA /* ARPongSceneViewController.mm */,
+				03415C7616BC76CA00741EAA /* ARPongSceneViewController.xib */,
 				0378C18716BE972B00296F34 /* ARPongBaseGameObject.h */,
 				0378C18816BE972B00296F34 /* ARPongBaseGameObject.m */,
 				03415C7E16BC7CA600741EAA /* ARPongPaddleGameObject.h */,
@@ -465,7 +466,7 @@
 				0320AB2316768685002B609D /* Default.png in Resources */,
 				0320AB2516768685002B609D /* Default@2x.png in Resources */,
 				0320AB2716768685002B609D /* Default-568h@2x.png in Resources */,
-				0320AB3116768685002B609D /* TrackerVC.xib in Resources */,
+				0320AB3116768685002B609D /* TrackerViewController.xib in Resources */,
 				03A9D5B216A5FC4000029048 /* icon.png in Resources */,
 				03A9D5B416A5FCC100029048 /* icon114.png in Resources */,
 				03A9D5B616A5FCE900029048 /* icon@2x.png in Resources */,
@@ -475,23 +476,23 @@
 				03391BF016A9F64C00D60E69 /* grey_dot.png in Resources */,
 				03391BF116A9F64C00D60E69 /* info_bg.png in Resources */,
 				03391BF216A9F64C00D60E69 /* red_dot.png in Resources */,
-				0300C25C16B1DE9D002D5C39 /* CalibrationVC.xib in Resources */,
+				0300C25C16B1DE9D002D5C39 /* CalibrationViewController.xib in Resources */,
 				0347E16F16B340AA0003FB00 /* calibrate_disabled.png in Resources */,
 				0347E17016B340AA0003FB00 /* calibrate.png in Resources */,
 				0347E17116B340AA0003FB00 /* camera_disabled.png in Resources */,
 				0347E17216B340AA0003FB00 /* camera.png in Resources */,
 				0347E17316B340AA0003FB00 /* large_info_bg.png in Resources */,
 				0347E17616B347860003FB00 /* tick.png in Resources */,
-				0347E17B16B348990003FB00 /* HomeVC.xib in Resources */,
+				0347E17B16B348990003FB00 /* HomeViewController.xib in Resources */,
 				0347E17D16B349F40003FB00 /* but.png in Resources */,
 				0347E18016B34AA60003FB00 /* app_icon.png in Resources */,
 				0347E18116B34AA60003FB00 /* wemakeplay_logo.png in Resources */,
 				0385835816B43CDC00ECCFE2 /* home.png in Resources */,
 				03752F1716B565D60099717D /* calibration.dat in Resources */,
-				03752F2B16B5BC340099717D /* ARSceneVC.xib in Resources */,
+				03752F2B16B5BC340099717D /* ARSceneViewController.xib in Resources */,
 				03752F3116B5EB2D0099717D /* box_tex.png in Resources */,
-				0386623416B96C3B00285C39 /* CameraCaptureVC.xib in Resources */,
-				03415C7816BC76CA00741EAA /* ARPongSceneVC.xib in Resources */,
+				0386623416B96C3B00285C39 /* CameraCaptureViewController.xib in Resources */,
+				03415C7816BC76CA00741EAA /* ARPongSceneViewController.xib in Resources */,
 				0378C18016BE751900296F34 /* blue_tex.png in Resources */,
 				0378C18116BE751900296F34 /* court_tex.png in Resources */,
 				0378C18216BE751900296F34 /* pink_tex.png in Resources */,
@@ -511,23 +512,23 @@
 			files = (
 				0320AB1D16768685002B609D /* main.m in Sources */,
 				0320AB2116768685002B609D /* AppDelegate.m in Sources */,
-				0320AB2E16768685002B609D /* TrackerVC.mm in Sources */,
+				0320AB2E16768685002B609D /* TrackerViewController.mm in Sources */,
 				03FB2C4516A4B377006B2570 /* OGLMesh.m in Sources */,
 				03FB2C4816A4B386006B2570 /* OGLModel.m in Sources */,
 				03A9D5BA16A6002D00029048 /* ARTrackerWrapper.mm in Sources */,
 				0374A54216A6ADC70048D413 /* ARTracker.cpp in Sources */,
 				0374A54A16A6C9CE0048D413 /* ARMarker.cpp in Sources */,
 				039853B616ACA9430084C581 /* ARTemplate.cpp in Sources */,
-				0300C25B16B1DE9D002D5C39 /* CalibrationVC.mm in Sources */,
+				0300C25B16B1DE9D002D5C39 /* CalibrationViewController.mm in Sources */,
 				0300C26316B1ED2E002D5C39 /* ARCalibrator.cpp in Sources */,
 				0300C26616B1ED54002D5C39 /* ARCalibratorWrapper.mm in Sources */,
-				0347E17A16B348990003FB00 /* HomeVC.m in Sources */,
+				0347E17A16B348990003FB00 /* HomeViewController.m in Sources */,
 				03752F0F16B53F8C0099717D /* ARCameraIntrinsics.mm in Sources */,
 				03752F2616B59A0F0099717D /* OGLARModel.m in Sources */,
-				03752F2A16B5BC340099717D /* ARSceneVC.mm in Sources */,
+				03752F2A16B5BC340099717D /* ARSceneViewController.mm in Sources */,
 				0386622F16B96BB400285C39 /* BaseARViewController.mm in Sources */,
-				0386623316B96C3B00285C39 /* CameraCaptureVC.mm in Sources */,
-				03415C7716BC76CA00741EAA /* ARPongSceneVC.mm in Sources */,
+				0386623316B96C3B00285C39 /* CameraCaptureViewController.mm in Sources */,
+				03415C7716BC76CA00741EAA /* ARPongSceneViewController.mm in Sources */,
 				03415C8016BC7CA600741EAA /* ARPongPaddleGameObject.m in Sources */,
 				03415C8316BC7DBB00741EAA /* ARPongCourtGameObject.m in Sources */,
 				0378C18616BE77D400296F34 /* ARPongBallGameObject.m in Sources */,
@@ -546,12 +547,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		0320AB2F16768685002B609D /* TrackerVC.xib */ = {
+		0320AB2F16768685002B609D /* TrackerViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				0320AB3016768685002B609D /* en */,
 			);
-			name = TrackerVC.xib;
+			name = TrackerViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

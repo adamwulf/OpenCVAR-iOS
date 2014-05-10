@@ -1,8 +1,8 @@
 //
-//  CameraCaptureVC.h
+//  ARSceneViewController.h
 //  OpenCVAR
 //
-//  Created by Joshua Newnham on 30/01/2013.
+//  Created by Joshua Newnham on 27/01/2013.
 //  Copyright (c) 2013 We Make Play. All rights reserved.
 //
 
@@ -12,9 +12,9 @@
 #import "BaseARViewController.h"
 #import "IAppNavigation.h"
 
-@interface CameraCaptureVC : BaseARViewController {
+@interface ARSceneViewController : BaseARViewController{
     
-    
+    IBOutlet UIImageView *trackingStatus; 
 }
 
 @end
