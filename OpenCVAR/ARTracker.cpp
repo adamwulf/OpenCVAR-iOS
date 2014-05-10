@@ -265,6 +265,16 @@ void ARTracker::doEstimatePose(std::vector<ARMarker>& detectedMarkers){
         cv::Rodrigues(Rvec, rotMat);
         
         cv::Mat modelMatrix;
+        
+        printf("\n");
+        printf("rotMat(0) = (%f, %f, %f)\n", rotMat[0][0], rotMat[0][1], rotMat[0][2]);
+        printf("rotMat(1) = (%f, %f, %f)\n", rotMat[1][0], rotMat[1][1], rotMat[1][2]);
+        printf("rotMat(2) = (%f, %f, %f)\n", rotMat[2][0], rotMat[2][1], rotMat[2][2]);
+        
+        printf("Tvec(0,0) = %f\n", Tvec[0][0]);
+        printf("Tvec(0,1) = %f\n", Tvec[0][1]);
+        printf("Tvec(0,2) = %f\n", Tvec[0][2]);
+        
         cameraMatrixToOpenGL(modelMatrix, rotMat, Tvec);
         
         marker.setModelMatrix(modelMatrix);
