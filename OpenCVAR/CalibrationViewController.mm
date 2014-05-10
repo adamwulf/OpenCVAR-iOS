@@ -119,7 +119,7 @@ using namespace cv;
         [_arCalib processImage:image];
         
         // update status
-        statusLbl.text = [NSString stringWithFormat:@"%d/%d Frames captured", [_arCalib getCapturedImageCount], MIN_FRAMES_FOR_CALIBRATION];
+        statusLbl.text = [NSString stringWithFormat:@"%d/%d Frames captured", (int) [_arCalib getCapturedImageCount], MIN_FRAMES_FOR_CALIBRATION];
         
         _calibrationResultDisplayTime = CALIBRATION_RESULT_DISPLAY_TIME;
         

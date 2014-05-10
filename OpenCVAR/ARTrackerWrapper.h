@@ -20,9 +20,9 @@
 
 -(BOOL) isBlurring;
 
--(void) addTemplate:(NSInteger) templateId templateImage:(UIImage*) templateImage;
+-(void) addTemplate:(int) templateId templateImage:(UIImage*) templateImage;
 
--(ARTemplate*) getTemplateWithId:(NSInteger) templateId;
+-(ARTemplate*) getTemplateWithId:(int) templateId;
 
 #pragma mark - 
 #pragma mark processing methods
@@ -33,7 +33,7 @@
 
 -(NSInteger) getDetectedMarkersCount;
 
--(ARMarker*) getDetectedMarkerAtIndex:(NSInteger) index;
+-(ARMarker*) getDetectedMarkerAtIndex:(int) index;
 
 #pragma mark - 
 #pragma mark util methods

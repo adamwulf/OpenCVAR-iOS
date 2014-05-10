@@ -89,7 +89,7 @@ int ARTracker::processFrame(cv::Mat& frame){
     
     processDebugRequest(frame, _greyMat, _binaryMat, contours, potentialMarkers, _detectedMarkers);
     
-    return _detectedMarkers.size();
+    return (int) _detectedMarkers.size();
     
 }
 
@@ -199,7 +199,7 @@ void ARTracker::doFindMarkers(std::vector<ARMarker>& detectedMarkers, std::vecto
     cv::Mat warpedMat = cv::Mat(_perspectiveTransformSize.width, _perspectiveTransformSize.height, binaryMat.type());
     
     // Identify the markers
-    for (int i=potentialMarkers.size()-1; i>=0; i--)
+    for (int i=(int)potentialMarkers.size()-1; i>=0; i--)
     {
         ARMarker& marker = potentialMarkers[i];
         

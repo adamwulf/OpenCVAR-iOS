@@ -12,8 +12,6 @@
     
 }
 
--(void) initialiseSharedInstance;
-
 -(NSInteger) retainCount;
 
 @end
@@ -45,15 +43,11 @@ static ARCameraIntrinsics *instance = NULL;
     return self;
 }
 
--(void) initialiseSharedInstance{
-    [self load];
-}
-
 +(ARCameraIntrinsics*) sharedInstance{
     if( instance == NULL ){
         @synchronized(self) {
             instance = [[self alloc] init];
-            [instance initialiseSharedInstance];
+            [instance load];
         }
     }
     return instance;
@@ -63,13 +57,12 @@ static ARCameraIntrinsics *instance = NULL;
     return NSUIntegerMax;
 }
 
-
 - (void)dealloc
 {
     [super dealloc];
 }
 
--(void) release{
+-(oneway void) release{
     /* ignore as the shared instance should not be deallocated */
 }
 

@@ -118,11 +118,11 @@ static GLKMatrix4 cvMatToGLKMatrix( cv::Mat& mat ){
     [_tracker processImage:image];    
     
     // update
-    int foundMarkersCount = [_tracker getDetectedMarkersCount];
+    int foundMarkersCount = (int) [_tracker getDetectedMarkersCount];
     
     trackingStatus.highlighted = foundMarkersCount > 0; 
     
-    for( size_t i=0;  i<foundMarkersCount; i++ ){
+    for( int i=0;  i<foundMarkersCount; i++ ){
         ARMarker *marker = [_tracker getDetectedMarkerAtIndex:i];
         
         // find associated model

@@ -61,12 +61,12 @@
 #pragma mark - 
 #pragma mark delegate methods
 
--(void) addTemplate:(NSInteger) templateId templateImage:(UIImage*) templateImage{
+-(void) addTemplate:(int) templateId templateImage:(UIImage*) templateImage{
     cv::Mat templateMat = [ARTrackerWrapper cvMatFromUIImage:templateImage];
-    tracker->addTemplate((int)templateId, templateMat);
+    tracker->addTemplate(templateId, templateMat);
 }
 
--(ARTemplate*) getTemplateWithId:(NSInteger) templateId{
+-(ARTemplate*) getTemplateWithId:(int) templateId{
     return tracker->getTemplateWithId(templateId);
 }
 
@@ -84,7 +84,7 @@
     return tracker->getDetectedMarkersCount();
 }
 
--(ARMarker*) getDetectedMarkerAtIndex:(NSInteger) index{
+-(ARMarker*) getDetectedMarkerAtIndex:(int) index{
     return tracker->getDetectedMarkerAtIndex(index);
 }
 

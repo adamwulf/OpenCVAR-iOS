@@ -342,11 +342,11 @@
         glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
         
         // Using BGRA extension to pull in video frame data directly
-        glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, width, height, 0, GL_BGRA, GL_UNSIGNED_BYTE, frameData);
+        glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, (GLsizei) width, (GLsizei) height, 0, GL_BGRA, GL_UNSIGNED_BYTE, frameData);
     } else{
         // update video frame
         glBindTexture(GL_TEXTURE_2D, textureId);
-        glTexSubImage2D(GL_TEXTURE_2D, 0, 0, 0, width, height, GL_BGRA, GL_UNSIGNED_BYTE, frameData);
+        glTexSubImage2D(GL_TEXTURE_2D, 0, 0, 0, (GLsizei) width, (GLsizei) height, GL_BGRA, GL_UNSIGNED_BYTE, frameData);
     }
     
     self.backdropModel.textureId = textureId;

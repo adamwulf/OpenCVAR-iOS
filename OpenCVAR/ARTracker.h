@@ -131,7 +131,7 @@ public:
     ARTemplate* getTemplateWithId(int templateId);
     
     int getDetectedMarkersCount(){
-        return _detectedMarkers.size();
+        return (int) _detectedMarkers.size();
     }
     
     ARMarker* getDetectedMarkerAtIndex(int index){
